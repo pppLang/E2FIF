@@ -1,12 +1,12 @@
 python -u main.py \
 --gpus 2 \
 --n_GPUs 1 \
---model EDSR_bireal51 \
---load edsr_bireal51 \
+--model EDSR_e2fif \
+--load edsr_e2fif \
 --resume -2 \
 --test_only \
 --binary_mode binary \
---dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--dir_data ./sr_data/ \
 --epochs 300 \
 --decay 200 \
 --lr 2e-4 \

@@ -1,0 +1,18 @@
+python -u main.py \
+--gpus 2,3 \
+--n_GPUs 2 \
+--model RDN_bireal12 \
+--save rdn_bireal12 \
+--res_scale 1 \
+--binary_mode binary \
+--dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--epochs 300 \
+--decay 200 \
+--lr 2e-4 \
+--data_test Set5+Set14+Urban100 \
+--scale 4 \
+--n_resblocks 8 \
+--n_convs 8 \
+--n_feats 64 \
+--res_scale 1 \
+--n_colors 1

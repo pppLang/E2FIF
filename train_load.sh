@@ -1,0 +1,18 @@
+python -u main.py \
+--gpus 1 \
+--n_GPUs 1 \
+--model EDSR_bireal51 \
+--save edsr_bireal51_binaryload \
+--pre_train ../experiment/edsr_bireal51_binaryactonly_x2_n16_c64_e300_lr0.0002_b16_p192/model/model_latest.pt \
+--binary_mode binary \
+--reset \
+--dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--epochs 300 \
+--decay 200 \
+--lr 4e-4 \
+--data_test Set5+Set14+Urban100 \
+--scale 2 \
+--n_resblocks 16 \
+--n_feats 64 \
+--res_scale 1 \
+--n_colors 1

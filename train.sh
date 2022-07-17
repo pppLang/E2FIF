@@ -1,0 +1,18 @@
+python -u main.py \
+--gpus 0 \
+--n_GPUs 1 \
+--model EDSR_bireal84 \
+--save edsr_bireal84cut1 \
+--res_scale 1 \
+--binary_mode binary \
+--dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--epochs 300 \
+--decay 200 \
+--lr 2e-4 \
+--data_test Set5+Set14+Urban100 \
+--scale 4 \
+--res_scale 1 \
+--n_resblocks 16 \
+--n_feats 64 \
+--res_scale 1 \
+--n_colors 1

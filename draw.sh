@@ -1,0 +1,21 @@
+python -u main.py \
+--gpus 0 \
+--n_GPUs 1 \
+--model EDSR_bireal52 \
+--load edsr_bireal52 \
+--resume -2 \
+--test_only \
+--save_results \
+--save_gt \
+--need_rgb \
+--binary_mode binary \
+--dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--epochs 300 \
+--decay 200 \
+--lr 2e-4 \
+--data_test Set14 \
+--scale 2 \
+--n_resblocks 16 \
+--n_feats 64 \
+--res_scale 1 \
+--n_colors 1

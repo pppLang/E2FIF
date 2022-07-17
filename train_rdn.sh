@@ -1,11 +1,11 @@
 python -u main.py \
 --gpus 2,3 \
 --n_GPUs 2 \
---model RDN_bireal12 \
---save rdn_bireal12 \
+--model RDN_e2fif \
+--save rdn_e2fif \
 --res_scale 1 \
 --binary_mode binary \
---dir_data /home/zhangxiao/langzhiqiang/sr_data/ \
+--dir_data ./sr_data/ \
 --epochs 300 \
 --decay 200 \
 --lr 2e-4 \

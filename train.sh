@@ -1,8 +1,8 @@
 python -u main.py \
 --gpus 0 \
 --n_GPUs 1 \
---model EDSR_bireal84 \
---save edsr_bireal84cut1 \
+--model EDSR_e2fif \
+--save edsr_e2fif \
 --res_scale 1 \
 --binary_mode binary \
 --dir_data /home/zhangxiao/langzhiqiang/sr_data/ \

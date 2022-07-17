@@ -1,7 +1,9 @@
 # E2FIF
-Simple but stronge baseline for binarized super-resolution networks (BSRNs).
+Simple but stronge baseline for binarized super-resolution networks (BSRNs). 
 
-This repo is modified by [EDSR](https://github.com/sanghyun-son/EDSR-PyTorch).
+See the original paper [E2FIF: Push the limit of Binarized Deep Imagery Super-resolution using End-to-end Full-precision Information Flow](https://arxiv.org/abs/2207.06893).
+
+This repo is modified from [EDSR](https://github.com/sanghyun-son/EDSR-PyTorch).
 
 ## Training
 
